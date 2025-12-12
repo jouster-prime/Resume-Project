@@ -3,3 +3,5 @@
 ## Purpose:
 ### This assignment gives you the opportunity to create a live, online resume using your HTML and CSS skills. It will be published to GitHub Pages and designed to reflect your personal style and professionalism. The final product will serve as a valuable showpiece you can continue to improve after the course.
 ## https://github.com/jouster-prime/Resume-Project
+
+![screenshot of the site](images/Screenshot%202025-12-11%2011.30.09%20PM.png)
