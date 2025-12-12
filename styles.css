@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+}
+
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: top;
+    z-index: -1;
+}
+
+nav {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    background-color: #f9f9f9;
+    border: black 1px solid;
+}
+
+.main-title {
+    padding: 37px 0px 0px 8%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    margin-top: 0px;
+    display: none;
+}
+
+.title-subtitle {
+    margin-left: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+
+.class-group {
+    border: black 1px solid;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.title-group {
+    border-bottom: black 5px double;
+}
+
+.title {
+    margin-left: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+}
+
+.subtitle {
+    margin-bottom: 10px;
+}
+
+.project-group {
+    padding-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: black 1px solid;
+}
+
+.sub-subtitle {
+    list-style: none;
+    margin: 0px 5% 10px;
+    color: #646464;
+}
+
+.web-link {
+    list-style: none;
+    color: #5ca0cb;
+    padding: 5px;
+}
+
+@media screen and (min-width: 980px) {
+
+    nav {
+        position: fixed;
+        box-shadow: #9aff9a 40px 40px 30px 0px;
+        top: 95px;
+        right: 8%;
+        width: 400px;
+    }
+
+    .main-title {
+        display: block;
+    }
+
+    .class-group {
+        width: 400px;
+        margin: 10px 0px 10px 8%;
+        box-shadow: #9aff9a 40px 40px 30px 0px;
+    }
+
+}
+
+@media screen and (min-width: 1120px) {
+
+    .class-group {
+        width: 500px;
+    }
+
+}
+
+@media screen and (min-width: 1250px) {
+
+    .class-group {
+        width: 600px;
+    }
+
+}
+
+@media screen and (min-width: 1480px) {
+
+    .class-group {
+        width: 800px;
+    }
+
+}
